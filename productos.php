@@ -1,1 +1,0 @@
-<?php require('./codigo_reutilizado/header') ?>
