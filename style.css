@@ -86,14 +86,6 @@ td {
     color: #fff;
 }
 
-.borrar {
-    background-color: #7270EC;
-    border-radius: 50%;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 800;
-}
 
 .carousel-indicators {
     bottom: -2.5rem;
@@ -218,8 +210,19 @@ hr {
     width: 50%;
 }
 
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
+#accordionExample {
+    padding: 2.4rem;
+}
 
-
+.accordion-item {
+    background-color: #747b8f;
+}
 
 /*minuto 59:24*/
