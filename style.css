@@ -11,79 +11,10 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    min-height: 70vh;
-}
-
-.menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-}
-
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
-
-.menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
-    color: #fff;
-    display: block;
-}
-
-.menu .navbar ul li a:hover {
-    color: #7270EC;
-}
-
-#menu {
-    display: none;
-}
-
-.menu-icono {
-    width: 25px;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
-}
-
-.submenu {
-    position: relative;
-}
-
-.submenu #carrito {
-    display: none;
-}
-
-.submenu:hover #carrito {
-    display: block;
-    position: absolute;
-    right: 0;
-    backdrop-filter: blur(18px);
-    top: 100%;
-    z-index: 1;
-    background-color: #4e485076;
-    padding: 20px;
-    min-width: 400px;
-}
-
-table {
-    width: 100%;
-}
-
-th,
-td {
-    color: #fff;
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+    opacity: 1;
 }
 
 
@@ -91,34 +22,36 @@ td {
     bottom: -2.5rem;
 }
 
-.centrado {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-content {
-    padding: 200px 0 100px p;
-}
-
-
 .header-info {
     display: flex;
+    padding-right: 1rem;
 }
 
 .header-txt {
-    width: 50%;
+    display: grid;
+    align-items: center;
+    width: 100%;
 }
 
 .header-txt h2 {
-    font-size: 50px;
+    font-size: 5vw;
     color: #fff;
     text-transform: capitalize;
 }
 
 .header-img {
     width: 50%;
-    text-align: right;
+}
+
+.imagen-de-fondo {
+    background-image: url('https://belcorpperu.vtexassets.com/arquivos/ids/238013-800-800?v=638144295324400000&width=800&height=800&aspect=true');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+    max-width: 570px;
+    max-height: 570px;
 }
 
 .body-container img {
@@ -131,33 +64,44 @@ td {
 
 .prices {
     display: flex;
-    margin: 20px 0;
+    justify-content: end;
+    gap: 0.4rem;
+    margin-bottom: 0rem;
+}
+
+.prices2 {
+    display: flex;
+    justify-content: start;
+    gap: 0.4rem;
+    margin-bottom: 0rem;
 }
 
 .price-1 {
-    font-size: 30px;
+    font-size: 3vw;
     color: #747b8f;
     text-decoration-line: line-through;
-    margin-right: 25px;
+    margin-bottom: 0rem;
 }
 
 .price-2 {
-    font-size: 30px;
+    font-size: 3vw;
     color: #7270EC !important;
+    margin-bottom: 0rem;
 }
 
 .btn-1 {
-    display: inline-block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     background-color: #7270EC;
     color: #fff;
-    font-size: 16px;
-    padding: 10px 25px;
+    font-size: 2.3vw;
     border-radius: 25px;
-    margin-top: 40px;
+    margin-top: 0.5rem;
 }
 
 .btn-1:hover {
-    background-color: #6c69f9;
+    background-color: #8785f5;
 }
 
 hr {
@@ -178,13 +122,16 @@ hr {
 .categories {
     text-align: left;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
 }
 
 .categorie {
     display: flex;
     align-content: center;
-    padding: 35px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
 }
 
 .categorie img {
@@ -223,6 +170,16 @@ hr {
 
 .accordion-item {
     background-color: #747b8f;
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#accordionExample {
+    padding: 1rem;
 }
 
 /*minuto 59:24*/
