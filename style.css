@@ -44,7 +44,7 @@ body {
 }
 
 .imagen-de-fondo {
-    background-image: url('https://belcorpperu.vtexassets.com/arquivos/ids/238013-800-800?v=638144295324400000&width=800&height=800&aspect=true');
+    background-image: url('./images/perfume1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -53,6 +53,30 @@ body {
     max-width: 570px;
     max-height: 570px;
 }
+
+
+.imagen-de-fondo2 {
+    background-image: url('./images/perfume2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+    max-width: 570px;
+    max-height: 570px;
+}
+
+.imagen-de-fondo3 {
+    background-image: url('./images/prefume3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+    max-width: 570px;
+    max-height: 570px;
+}
+
 
 .body-container img {
     width: 500px;
